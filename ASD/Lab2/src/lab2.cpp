@@ -52,24 +52,51 @@ container methodOfChoice(int* arr, int n)
 	return _data;
 }
 
+int increment(int *inc, long size) {
+	int coef1, coef2, coef3, n;
+
+	coef1 = coef2 = coef3 = 1;
+	n = -1;
+	do {
+		if (++n % 2) {
+			inc[n] = 8 * coef1 - 6 * coef2 + 1;
+		}
+		else {
+			inc[n] = 9 * coef1 - 9 * coef3 + 1;
+			coef2 *= 2;
+			coef3 *= 2;
+		}
+		coef1 *= 2;
+	} while (3 * inc[n] < size);
+
+	return n > 0 ? --n : 0;
+}
+
+
+
 container methodOfShell(int* arr, int n)
 {
 	chrono::duration<double> tm;
 	int compare = 0;
 	int swaps = 0;
 	container _data;
+	long inc, i, j;
+	int* d = new int[n];
+	int size_d;
 	auto start = chrono::high_resolution_clock::now();
-
-	for (int k = n / 2; k >= 1; k /= 2)
-	{
-		for (int i = k; i < n; i++)
-		{
-			for (int j = i; j >= k && arr[j - k] > arr[j]; j -= k)
+	
+	size_d = increment(d, n);
+	while (size_d >= 0) {
+		inc = d[size_d--];
+		for (i = inc; i < n; i++) {
+			int temp = arr[i];	
+			for (j = i - inc; (j >= 0) && (arr[j] > temp); j -= inc)
 			{
-				swap(arr[j], arr[j - k]);
-				swaps++;
+				arr[j + inc] = arr[j];
 				compare++;
 			}
+			arr[j + inc] = temp;
+			swaps++;
 		}
 	}
 
@@ -110,3 +137,4 @@ void selectMethod(int* arr, int n)
 		break;
 	}
 }
+

@@ -1,0 +1,253 @@
+┌─[augfitzr@parrot]─[~/Desktop]
+└──╼ $passwd augfitzr
+Смена пароля для augfitzr.
+Текущий пароль: 
+Новый пароль: 
+Повторите ввод нового пароля: 
+passwd: password updated successfully
+
+
+┌─[✗]─[augfitzr@parrot]─[~/Desktop]
+└──╼ $date
+Ср 17 фев 2021 18:05:04 EET
+
+
+┌─[augfitzr@parrot]─[~/Desktop]
+└──╼ $wc -l /etc/networks
+3 /etc/networks
+┌─[augfitzr@parrot]─[~/Desktop]
+└──╼ $cat /etc/networks
+default		0.0.0.0
+loopback	127.0.0.0
+link-local	169.254.0.0
+
+
+┌─[augfitzr@parrot]─[~/Desktop]
+└──╼ $cal 2003
+                            2003
+       Январь               Февраль                 Март          
+Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  
+          1  2  3  4                     1                     1  
+ 5  6  7  8  9 10 11   2  3  4  5  6  7  8   2  3  4  5  6  7  8  
+12 13 14 15 16 17 18   9 10 11 12 13 14 15   9 10 11 12 13 14 15  
+19 20 21 22 23 24 25  16 17 18 19 20 21 22  16 17 18 19 20 21 22  
+26 27 28 29 30 31     23 24 25 26 27 28     23 24 25 26 27 28 29  
+                                            30 31                 
+
+       Апрель                 Май                   Июнь          
+Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  
+       1  2  3  4  5               1  2  3   1  2  3  4  5  6  7  
+ 6  7  8  9 10 11 12   4  5  6  7  8  9 10   8  9 10 11 12 13 14  
+13 14 15 16 17 18 19  11 12 13 14 15 16 17  15 16 17 18 19 20 21  
+20 21 22 23 24 25 26  18 19 20 21 22 23 24  22 23 24 25 26 27 28  
+27 28 29 30           25 26 27 28 29 30 31  29 30                 
+                                                                  
+
+        Июль                 Август               Сентябрь        
+Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  
+       1  2  3  4  5                  1  2      1  2  3  4  5  6  
+ 6  7  8  9 10 11 12   3  4  5  6  7  8  9   7  8  9 10 11 12 13  
+13 14 15 16 17 18 19  10 11 12 13 14 15 16  14 15 16 17 18 19 20  
+20 21 22 23 24 25 26  17 18 19 20 21 22 23  21 22 23 24 25 26 27  
+27 28 29 30 31        24 25 26 27 28 29 30  28 29 30              
+                      31                                          
+
+      Октябрь                Ноябрь               Декабрь         
+Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  
+          1  2  3  4                     1      1  2  3  4  5  6  
+ 5  6  7  8  9 10 11   2  3  4  5  6  7  8   7  8  9 10 11 12 13  
+12 13 14 15 16 17 18   9 10 11 12 13 14 15  14 15 16 17 18 19 20  
+19 20 21 22 23 24 25  16 17 18 19 20 21 22  21 22 23 24 25 26 27  
+26 27 28 29 30 31     23 24 25 26 27 28 29  28 29 30 31           
+                      30      
+
+
+┌─[augfitzr@parrot]─[~/Desktop]
+└──╼ $cal 1752
+                            1752
+       Январь               Февраль                 Март          
+Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  
+          1  2  3  4                     1   1  2  3  4  5  6  7  
+ 5  6  7  8  9 10 11   2  3  4  5  6  7  8   8  9 10 11 12 13 14  
+12 13 14 15 16 17 18   9 10 11 12 13 14 15  15 16 17 18 19 20 21  
+19 20 21 22 23 24 25  16 17 18 19 20 21 22  22 23 24 25 26 27 28  
+26 27 28 29 30 31     23 24 25 26 27 28 29  29 30 31              
+                                                                  
+
+       Апрель                 Май                   Июнь          
+Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  
+          1  2  3  4                  1  2      1  2  3  4  5  6  
+ 5  6  7  8  9 10 11   3  4  5  6  7  8  9   7  8  9 10 11 12 13  
+12 13 14 15 16 17 18  10 11 12 13 14 15 16  14 15 16 17 18 19 20  
+19 20 21 22 23 24 25  17 18 19 20 21 22 23  21 22 23 24 25 26 27  
+26 27 28 29 30        24 25 26 27 28 29 30  28 29 30              
+                      31                                          
+
+        Июль                 Август               Сентябрь        
+Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  
+          1  2  3  4                     1         1  2 14 15 16  
+ 5  6  7  8  9 10 11   2  3  4  5  6  7  8  17 18 19 20 21 22 23  
+12 13 14 15 16 17 18   9 10 11 12 13 14 15  24 25 26 27 28 29 30  
+19 20 21 22 23 24 25  16 17 18 19 20 21 22                        
+26 27 28 29 30 31     23 24 25 26 27 28 29                        
+                      30 31                                       
+
+      Октябрь                Ноябрь               Декабрь         
+Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  Вс Пн Вт Ср Чт Пт Сб  
+ 1  2  3  4  5  6  7            1  2  3  4                  1  2  
+ 8  9 10 11 12 13 14   5  6  7  8  9 10 11   3  4  5  6  7  8  9  
+15 16 17 18 19 20 21  12 13 14 15 16 17 18  10 11 12 13 14 15 16  
+22 23 24 25 26 27 28  19 20 21 22 23 24 25  17 18 19 20 21 22 23  
+29 30 31              26 27 28 29 30        24 25 26 27 28 29 30  
+                                            31      
+Смена календаря в США и Великобритании на григорианский в этот год
+
+
+┌─[✗]─[augfitzr@parrot]─[~/Desktop]
+└──╼ $cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:100:101:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+systemd-network:x:101:103:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:102:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+_apt:x:103:65534::/nonexistent:/usr/sbin/nologin
+mysql:x:104:110:MySQL Server,,,:/nonexistent:/bin/false
+tss:x:105:111:TPM software stack,,,:/var/lib/tpm:/bin/false
+shellinabox:x:106:112:Shell In A Box,,,:/var/lib/shellinabox:/usr/sbin/nologin
+strongswan:x:107:65534::/var/lib/strongswan:/usr/sbin/nologin
+ntp:x:108:114::/nonexistent:/usr/sbin/nologin
+messagebus:x:109:115::/nonexistent:/usr/sbin/nologin
+Debian-exim:x:110:116::/var/spool/exim4:/usr/sbin/nologin
+uuidd:x:111:117::/run/uuidd:/usr/sbin/nologin
+debian-tor:x:112:118::/var/lib/tor:/bin/false
+redsocks:x:113:119::/var/run/redsocks:/usr/sbin/nologin
+freerad:x:114:122::/etc/freeradius:/usr/sbin/nologin
+iodine:x:115:65534::/run/iodine:/usr/sbin/nologin
+miredo:x:116:65534::/var/run/miredo:/usr/sbin/nologin
+dnsmasq:x:117:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+redis:x:118:125::/var/lib/redis:/usr/sbin/nologin
+arpwatch:x:119:126:ARP Watcher,,,:/var/lib/arpwatch:/bin/sh
+usbmux:x:120:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+tcpdump:x:121:128::/nonexistent:/usr/sbin/nologin
+rtkit:x:122:130:RealtimeKit,,,:/proc:/usr/sbin/nologin
+sshd:x:123:65534::/run/sshd:/usr/sbin/nologin
+postgres:x:124:131:PostgreSQL administrator,,,:/var/lib/postgresql:/bin/bash
+avahi:x:125:133:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+stunnel4:x:126:134::/var/run/stunnel4:/usr/sbin/nologin
+_gvm:x:127:135::/var/lib/openvas:/usr/sbin/nologin
+sslh:x:128:137::/nonexistent:/usr/sbin/nologin
+nm-openvpn:x:129:138:NetworkManager OpenVPN,,,:/var/lib/openvpn/chroot:/usr/sbin/nologin
+nm-openconnect:x:130:139:NetworkManager OpenConnect plugin,,,:/var/lib/NetworkManager:/usr/sbin/nologin
+pulse:x:131:141:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+saned:x:132:143::/var/lib/saned:/usr/sbin/nologin
+inetsim:x:133:145::/var/lib/inetsim:/usr/sbin/nologin
+colord:x:134:146:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+i2psvc:x:135:147:I2P Router Daemon:/var/lib/i2p:/bin/false
+dradis:x:136:148::/var/lib/dradis:/usr/sbin/nologin
+beef-xss:x:137:149::/var/lib/beef-xss:/usr/sbin/nologin
+geoclue:x:138:150::/var/lib/geoclue:/usr/sbin/nologin
+lightdm:x:139:151:Light Display Manager:/var/lib/lightdm:/bin/false
+king-phisher:x:140:152::/var/lib/king-phisher:/usr/sbin/nologin
+augfitzr:x:1000:1000:AugFitzR,,,:/home/augfitzr:/bin/bash
+systemd-coredump:x:999:999:systemd Core Dumper:/:/usr/sbin/nologin
+
+┌─[augfitzr@parrot]─[~/Desktop]
+└──╼ $ping
+ping: usage error: Требуется указать адрес назначения
+
+Для того что бы отправлять пакеты куда то, необходимо указывать адрес,
+например:
+
+┌─[✗]─[augfitzr@parrot]─[~/Desktop]
+└──╼ $ping 8.8.8.8
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=128 time=15.5 ms
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=128 time=16.1 ms
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=128 time=16.0 ms
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=128 time=15.9 ms
+
+
+┌─[✗]─[augfitzr@parrot]─[~/Desktop]
+└──╼ $sudo cp /bin/mv /home
+[sudo] пароль для augfitzr: 
+
+┌─[augfitzr@parrot]─[/home]
+└──╼ $sudo cp -p /bin/bash /home
+
+┌─[✗]─[augfitzr@parrot]─[/home]
+└──╼ $sudo mkdir lab_1
+
+┌─[✗]─[augfitzr@parrot]─[/home]
+└──╼ $sudo cp /home/mv /home/lab_1/my_mv
+
+┌─[✗]─[augfitzr@parrot]─[/home]
+└──╼ $sudo mv /home/bash /home/lab_1/my_bash
+
+┌─[augfitzr@parrot]─[/home]
+└──╼ $ls
+augfitzr  lab_1  mv
+┌─[augfitzr@parrot]─[/home]
+└──╼ $ls lab_1
+my_bash  my_mv
+
+┌─[augfitzr@parrot]─[~]
+└──╼ $cd /home
+
+┌─[augfitzr@parrot]─[/home]
+└──╼ $sudo mkdir lab_1_8
+┌─[augfitzr@parrot]─[/home]
+└──╼ $cd lab_1_8/
+
+┌─[augfitzr@parrot]─[/home/lab_1_8]
+└──╼ $sudo cp /etc/networks nnetworks
+┌─[augfitzr@parrot]─[/home/lab_1_8]
+└──╼ $ls
+nnetworks
+┌─[augfitzr@parrot]─[/home/lab_1_8]
+└──╼ $cat nnetworks 
+default		0.0.0.0
+loopback	127.0.0.0
+link-local	169.254.0.0
+┌─[augfitzr@parrot]─[/home/lab_1_8]
+└──╼ $less nnetworks 
+
+[1]+  Остановлен    less nnetworks
+
+┌─[augfitzr@parrot]─[/home/lab_1_8]
+└──╼ $cd ..
+
+┌─[✗]─[augfitzr@parrot]─[/home]
+└──╼ $sudo rm -r lab_1_8
+
+┌─[augfitzr@parrot]─[/home]
+└──╼ $ls
+augfitzr  lab_1  mv
+
+
+
+
+
+
+
+
+
+
+
+
+
