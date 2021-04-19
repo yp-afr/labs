@@ -29,6 +29,8 @@ container methodOfChoice(int* arr, int n)
 	container _data;
 	auto start = chrono::high_resolution_clock::now();
 
+
+	
 	for (int i = 0; i < n - 1; ++i)
 	{
 		int min = i;
@@ -67,6 +69,7 @@ int increment(int *inc, long size) {
 			coef3 *= 2;
 		}
 		coef1 *= 2;
+		
 	} while (3 * inc[n] < size);
 
 	return n > 0 ? --n : 0;
@@ -86,6 +89,7 @@ container methodOfShell(int* arr, int n)
 	auto start = chrono::high_resolution_clock::now();
 	
 	size_d = increment(d, n);
+	
 	while (size_d >= 0) {
 		inc = d[size_d--];
 		for (i = inc; i < n; i++) {
@@ -96,6 +100,7 @@ container methodOfShell(int* arr, int n)
 				compare++;
 			}
 			arr[j + inc] = temp;
+			displayArray(arr, n);
 			swaps++;
 		}
 	}
