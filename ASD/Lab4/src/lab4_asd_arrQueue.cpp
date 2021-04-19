@@ -119,7 +119,7 @@ void choice(ArrayQueue<T>* arrQ)
     int a = NULL;
     while (a != 4)
     {
-        system("cls");
+        system("clear");
         cout << "---- Lab4 ----\n\nChoose operation: \n| 1. EnQueue\n| 2. DeQueue\n| 3. Display\n| 4. Exit\n\nlab4@asd:~$ ";
         cin >> a;
         while (cin.fail())
@@ -138,7 +138,7 @@ void choice(ArrayQueue<T>* arrQ)
             T b;
             cin >> b;
             arrQ->enQueue(b) ? cout << "Value '" << b << "' successfully added!\n" : cout << "Failed!\n";
-            system("pause");
+           cin.get(); 
         } break;
         case 2:
         {
@@ -150,20 +150,21 @@ void choice(ArrayQueue<T>* arrQ)
                 T temp = arrQ->deQueue();
                 cout << "Value '" << temp << "' successfully deleted!\n";
             }
-            system("pause");
-        }break;
+        cin.get();
+	}break;
         case 3:
             arrQ->display();
-            system("pause");
+            cin.get();
             break;
         case 4:
             break;
         default:
             cout << "[ERROR] Incorrect operation! Try again...\n";
-            system("pause");
+            cin.get();
             break;
         }
-
+	cout << "Press any key...";
+	cin.get();
 
     }
 
