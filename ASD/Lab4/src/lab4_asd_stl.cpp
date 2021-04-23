@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <deque>
-
+#include <stack>
 using namespace std;
 
 class Stack
@@ -28,6 +28,7 @@ Stack::Stack()
 void Stack::push(int value)
 {
     vec.push_back(value);
+    
 }
 
 void Stack::pop()
